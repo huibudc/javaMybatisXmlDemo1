@@ -11,7 +11,7 @@ import pojo.User;
 import java.util.List;
 
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
 
 public class UserDaoImplTest {
     //使用类加载器加载mybatis的配置文件（它也加载关联的映射文件）
@@ -43,6 +43,7 @@ public class UserDaoImplTest {
 
     @After
     public void tearDown() throws Exception {
+
         userDao.clearTable();
         if (session != null) {
             session.close();
