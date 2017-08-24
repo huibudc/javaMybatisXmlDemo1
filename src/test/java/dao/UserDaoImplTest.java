@@ -39,7 +39,6 @@ public class UserDaoImplTest {
         userDao.clearTable();
         userDao.add(new User("test1","test11"));
         userDao.add(new User("test2","test22"));
-
     }
 
     @After
