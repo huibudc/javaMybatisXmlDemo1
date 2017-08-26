@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e8568b0-3334-40da-81f8-abfa212f30d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/myBatisInterfaceCRUD/UserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/myBatisInterfaceCRUD/UserMapping.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/dao/myBatisInterfaceCRUD/UserMapperTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/dao/UserDaoImplTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pojo/User.class" afterPath="$PROJECT_DIR$/target/classes/pojo/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pojo/User.java" afterPath="$PROJECT_DIR$/src/main/java/pojo/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.xml" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config.xml" afterPath="$PROJECT_DIR$/target/classes/config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/dao/UserDaoImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/dao/UserMapperImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,27 +53,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/BaseDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserMapping.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/myBatisInterfaceCRUD/UserMapping.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
               <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
               <folding>
-                <marker date="1503721745163" expanded="true" signature="753:786" ph="select * fro... user" />
-                <marker date="1503721745163" expanded="true" signature="858:876" ph="SELECT * FRO... user" />
-                <marker date="1503721745163" expanded="true" signature="929:991" ph="INSERT INTO user... " />
-                <marker date="1503721745163" expanded="true" signature="1047:1092" ph="delete FROM " />
-                <marker date="1503721745163" expanded="true" signature="1145:1161" ph="delete FROM " />
+                <marker date="1503733193301" expanded="true" signature="753:804" ph="select * fro... user" />
+                <marker date="1503733193301" expanded="true" signature="876:902" ph="SELECT * FRO... user" />
+                <marker date="1503733193301" expanded="true" signature="955:1018" ph="INSERT INTO user... " />
+                <marker date="1503733193301" expanded="true" signature="1074:1119" ph="delete FROM " />
+                <marker date="1503733193301" expanded="true" signature="1172:1188" ph="delete FROM " />
               </folding>
             </state>
           </provider>
@@ -100,14 +81,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapperTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserMapperTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dao/myBatisInterfaceCRUD/UserMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="495">
+              <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -220,6 +211,7 @@
         <option value="$PROJECT_DIR$/src/test/java/dao/UserMapperImplTest.java" />
         <option value="$PROJECT_DIR$/target/classes/dao/myBatisInterfaceCRUD/UserMapper.class" />
         <option value="$PROJECT_DIR$/src/test/java/dao/myBatisInterfaceCRUD/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -562,7 +554,7 @@
       <workItem from="1503589349836" duration="158000" />
       <workItem from="1503589608954" duration="331000" />
       <workItem from="1503672710803" duration="2008000" />
-      <workItem from="1503719573341" duration="3650000" />
+      <workItem from="1503719573341" duration="3826000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1503586060196</created>
@@ -606,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503672847833</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test">
+      <created>1503733199105</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1503733199105</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -642,7 +641,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15709000" />
+    <option name="totallyTimeSpent" value="15885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -657,11 +656,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34167573" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26705757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26705757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -702,14 +701,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1105,11 +1096,11 @@
         <state relative-caret-position="110">
           <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
           <folding>
-            <marker date="1503721745163" expanded="true" signature="753:786" ph="select * fro... user" />
-            <marker date="1503721745163" expanded="true" signature="858:876" ph="SELECT * FRO... user" />
-            <marker date="1503721745163" expanded="true" signature="929:991" ph="INSERT INTO user... " />
-            <marker date="1503721745163" expanded="true" signature="1047:1092" ph="delete FROM " />
-            <marker date="1503721745163" expanded="true" signature="1145:1161" ph="delete FROM " />
+            <marker date="1503733193301" expanded="true" signature="753:804" ph="select * fro... user" />
+            <marker date="1503733193301" expanded="true" signature="876:902" ph="SELECT * FRO... user" />
+            <marker date="1503733193301" expanded="true" signature="955:1018" ph="INSERT INTO user... " />
+            <marker date="1503733193301" expanded="true" signature="1074:1119" ph="delete FROM " />
+            <marker date="1503733193301" expanded="true" signature="1172:1188" ph="delete FROM " />
           </folding>
         </state>
       </provider>
@@ -1126,11 +1117,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dao/myBatisInterfaceCRUD/UserMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="495">
+          <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
