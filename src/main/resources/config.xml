@@ -36,6 +36,7 @@
 
     <mappers>
         <mapper resource="mappings/userMapping.xml"/>
+        <mapper resource="dao/myBatisInterfaceCRUD/UserMapping.xml"/>
     </mappers>
 
 </configuration>

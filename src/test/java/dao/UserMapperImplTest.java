@@ -13,10 +13,10 @@ import java.util.List;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-public class UserDaoImplTest {
+public class UserMapperImplTest {
     //使用类加载器加载mybatis的配置文件（它也加载关联的映射文件）
     //构建sqlSession的工厂
-    private SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder().build(UserDaoImplTest.class.getClassLoader().getResourceAsStream("config.xml"));
+    private SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder().build(UserMapperImplTest.class.getClassLoader().getResourceAsStream("config.xml"));
     //使用MyBatis提供的Resources类加载mybatis的配置文件（它也加载关联的映射文件）
     //Reader reader = Resources.getResourceAsReader(resource);
     //构建sqlSession的工厂
@@ -39,7 +39,6 @@ public class UserDaoImplTest {
         userDao.clearTable();
         userDao.add(new User("test1","test11"));
         userDao.add(new User("test2","test22"));
-        System.out.println("testtttt");
     }
 
     @After
